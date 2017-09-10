@@ -1,0 +1,77 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	max-width: 100%;
+
+}
+
+div,
+header {
+	box-sizing: border-box;
+}
+
+.header {
+	background: #5b1dcd;
+}
+
+.header__container {
+	width: 100%;
+	max-width: 1440px;
+	margin: 0 auto;
+	padding: 17px 38px;
+	display: inline-block;
+}
+
+.header__logo-img {
+	width: 342px;
+	height: 24px;
+}
+
+
+.header__search-img {
+	width: 19px;
+	height: 19px;
+}
+
+
+.header__logo {
+	display: block;
+	width: 60%;
+	float: left;
+	text-align: center;
+	padding-top: 0;
+	box-sizing: border-box;
+}
+
+.header__search {
+	display: block;
+	width: 20%;
+	float: right;
+	text-align: right;
+}
+
+.header-address {
+	display: block;
+	width: 20%;
+	float: left;
+	text-align: left;
+    font-family: 'PT Sans', sans-serif;
+    color: #fff;
+    font-size: 12px;
+    line-height: 1.2;
+}
+
+.header-address__name {
+	font-weight: 700;
+}
+
+.header-address__street {
+	font-weight: 400;
+}
+
+.header-address__arrow {
+	font-size: 10px
+}
